@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-ops-desiciontree"
+version = "0.1.0"
+description = ""
+authors = ["nadya <nadya.geraskina@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.3.2"
+pre-commit = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
